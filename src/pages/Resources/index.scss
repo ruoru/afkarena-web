@@ -1,0 +1,48 @@
+.resources-page {
+  margin: 10px 14px 0;
+
+  .update-time {
+    font-size: 13px;
+  }
+
+  .list {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #222;
+
+    > li {
+      display: flex;
+      align-items: center;
+      margin-top: 8px;
+
+      .img-wrap {
+        > img {
+          width: 30px;
+        }
+      }
+
+      .name-wrap {
+        margin: 0 8px;
+        width: 120px;
+      }
+
+      .input-wrap {
+        > input[type="number"] {
+          width: 60px;
+          height: 20px;
+          border: 0.67px solid #999;
+        }
+      }
+
+      .discount-wrap {
+        .original-price {
+          text-decoration: line-through;
+          margin-left: 8px;
+        }
+
+        .discount {
+        }
+      }
+    }
+  }
+}
